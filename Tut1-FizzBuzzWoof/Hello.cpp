@@ -27,10 +27,16 @@ int main()
 			//Print Buzz
 			cout << "Buzz ";
 		}
-		//Divisible Flag
+		//Woof - Divisible by 7
+		if (i % 5 == 0)
+		{
+			//Print Woof
+			cout << "Woof ";
+		}
+		//Divisible Flag Check
 		if (isDivisible==false)
 		{
-			//Print Number if not divisible by 3 or 5
+			//Print Number if not divisible by 3,5 or 7
 			cout << i << endl;
 		}
 		else
