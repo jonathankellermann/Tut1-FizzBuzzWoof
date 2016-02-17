@@ -50,6 +50,7 @@ int main()
 			//Break Line
 			cout << endl;
 		}
+		isDivisible = false;
 		//Exit Loop
 		}
 	return 0;
