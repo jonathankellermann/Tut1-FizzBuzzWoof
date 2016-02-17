@@ -32,7 +32,7 @@ int main()
 			isDivisible = true;
 		}
 		//Woof - Divisible by 7
-		if (i % 5 == 0)
+		if (i % 7 == 0)
 		{
 			//Print Woof
 			cout << "Woof ";
