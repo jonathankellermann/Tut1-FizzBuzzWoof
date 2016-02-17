@@ -20,18 +20,24 @@ int main()
 		{
 			//Print Fizz
 			cout << "Fizz ";
+			//Set Flag
+			isDivisible = true;
 		}
 		//Buzz - Divisible by 5
 		if (i % 5 == 0)
 		{
 			//Print Buzz
 			cout << "Buzz ";
+			//Set Flag
+			isDivisible = true;
 		}
 		//Woof - Divisible by 7
 		if (i % 5 == 0)
 		{
 			//Print Woof
 			cout << "Woof ";
+			//Set Flag
+			isDivisible = true;
 		}
 		//Divisible Flag Check
 		if (isDivisible==false)
